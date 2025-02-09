@@ -23,9 +23,30 @@ def save_leaderboard(leaderboard):
         json.dump(leaderboard, file, indent=4)
 
 def conduct_quiz():
-    """Runs the interactive quiz using Streamlit with improved design."""
+    """Runs the interactive quiz using Streamlit with improved design and layout."""
+    st.set_page_config(page_title="Aryan & Rig Veda Quiz", layout="wide")
+    st.markdown("""
+        <style>
+        .question-box {
+            padding: 15px;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+            margin-bottom: 10px;
+            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+        }
+        .correct-answer {
+            color: green;
+            font-weight: bold;
+        }
+        .wrong-answer {
+            color: red;
+            font-weight: bold;
+        }
+        </style>
+    """, unsafe_allow_html=True)
+    
     st.title("📜 Aryan & Rig Veda Quiz 🏛️")
-    st.write("### Test your knowledge about the Rig Vedic period!")
+    st.write("### Test your knowledge about the Rig Vedic period! 🏆")
     
     player_name = st.text_input("👤 Enter your name:")
     
@@ -33,14 +54,16 @@ def conduct_quiz():
         questions = load_questions()
         responses = {}
         
-        st.write("### Answer the following questions:")
+        st.write("### 📖 Answer the following questions:")
         for index, q in enumerate(questions, start=1):
-            responses[f"q{index}"] = st.radio(
-                f"**{index}. {q['question']}**",
-                [f"{chr(65 + i)}. {option}" for i, option in enumerate(q['options'])],
-                index=None,
-                key=f"q{index}"
-            )
+            with st.container():
+                st.markdown(f"<div class='question-box'><b>{index}. {q['question']}</b></div>", unsafe_allow_html=True)
+                responses[f"q{index}"] = st.radio(
+                    "",
+                    [f"{chr(65 + i)}. {option}" for i, option in enumerate(q['options'])],
+                    index=None,
+                    key=f"q{index}"
+                )
         
         if st.button("✅ Submit Quiz"):
             score = 0
@@ -55,10 +78,10 @@ def conduct_quiz():
                     selected_option = answer[0]
                     if selected_option == q['answer']:
                         score += 2
-                        st.success(f"✅ {index}. {q['question']} (Correct!)")
+                        st.markdown(f"<p class='correct-answer'>✅ {index}. {q['question']} (Correct!)</p>", unsafe_allow_html=True)
                     else:
                         score -= 0.66
-                        st.error(f"❌ {index}. {q['question']} (Wrong!)")
+                        st.markdown(f"<p class='wrong-answer'>❌ {index}. {q['question']} (Wrong!)</p>", unsafe_allow_html=True)
                         st.write(f"✔️ Correct Answer: {correct_option}")
                 else:
                     st.warning(f"⚠️ {index}. {q['question']} (Unanswered)")
