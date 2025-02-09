@@ -23,38 +23,54 @@ def save_leaderboard(leaderboard):
         json.dump(leaderboard, file, indent=4)
 
 def conduct_quiz():
-    """Runs the interactive quiz using Streamlit."""
-    st.title("Aryan & Rig Veda Quiz")
-    player_name = st.text_input("Enter your name:")
+    """Runs the interactive quiz using Streamlit with improved design."""
+    st.title("📜 Aryan & Rig Veda Quiz 🏛️")
+    st.write("### Test your knowledge about the Rig Vedic period!")
+    
+    player_name = st.text_input("👤 Enter your name:")
     
     if player_name:
         questions = load_questions()
         responses = {}
         
+        st.write("### Answer the following questions:")
         for index, q in enumerate(questions, start=1):
-            st.write(f"**Question {index}:** {q['question']}")
-            responses[f"q{index}"] = st.radio("Select an answer:", [f"{chr(65 + i)}. {option}" for i, option in enumerate(q['options'])], index=None, key=f"q{index}")
+            responses[f"q{index}"] = st.radio(
+                f"**{index}. {q['question']}**",
+                [f"{chr(65 + i)}. {option}" for i, option in enumerate(q['options'])],
+                index=None,
+                key=f"q{index}"
+            )
         
-        if st.button("Submit Quiz"):
+        if st.button("✅ Submit Quiz"):
             score = 0
             total_questions = len(questions)
+            st.write("### 📊 Quiz Results")
             
             for index, q in enumerate(questions, start=1):
                 answer = responses[f"q{index}"]
+                correct_option = f"{q['answer']}. {q['options'][ord(q['answer']) - 65]}"
+                
                 if answer:
                     selected_option = answer[0]
                     if selected_option == q['answer']:
                         score += 2
+                        st.success(f"✅ {index}. {q['question']} (Correct!)")
                     else:
                         score -= 0.66
+                        st.error(f"❌ {index}. {q['question']} (Wrong!)")
+                        st.write(f"✔️ Correct Answer: {correct_option}")
+                else:
+                    st.warning(f"⚠️ {index}. {q['question']} (Unanswered)")
+                    st.write(f"✔️ Correct Answer: {correct_option}")
             
-            st.write(f"### {player_name}, your final score is: {score}/{total_questions * 2}")
+            st.write(f"### 🎯 {player_name}, your final score is: **{score}/{total_questions * 2}**")
             
             leaderboard = load_leaderboard()
             leaderboard[player_name] = score
             save_leaderboard(leaderboard)
             
-            st.write("## Leaderboard:")
+            st.write("## 🏆 Leaderboard:")
             sorted_leaderboard = sorted(leaderboard.items(), key=lambda x: x[1], reverse=True)
             for rank, (name, scr) in enumerate(sorted_leaderboard, start=1):
                 st.write(f"{rank}. {name} - {scr} points")
