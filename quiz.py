@@ -75,7 +75,8 @@ def conduct_quiz():
         start_time = time.time()
         end_time = start_time + total_time
         responses = {}
-        submitted = st.session_state.get("submitted", False)
+        if "submitted" not in st.session_state:
+            st.session_state["submitted"] = False
         
         timer_placeholder = st.empty()
         st.markdown("<div class='timer-container'>", unsafe_allow_html=True)
@@ -92,25 +93,23 @@ def conduct_quiz():
                     key=f"q{index}"
                 )
         
-        submit_clicked = st.button("✅ Submit Quiz", disabled=submitted)
+        submit_clicked = st.button("✅ Submit Quiz", disabled=st.session_state["submitted"])
         
-        while time.time() < end_time and not submitted:
+        while time.time() < end_time and not st.session_state["submitted"]:
             remaining_time = int(end_time - time.time())
             minutes, seconds = divmod(remaining_time, 60)
             timer_placeholder.markdown(f"<div class='timer'>⏳ Time Remaining: {minutes:02}:{seconds:02} mins</div>", unsafe_allow_html=True)
             time.sleep(1)
             if submit_clicked:
                 st.session_state["submitted"] = True
-                submitted = True
                 break
         
-        if time.time() >= end_time and not submitted:
+        if time.time() >= end_time and not st.session_state["submitted"]:
             st.warning("⏳ Time's Up! Auto-submitting your answers.")
             time.sleep(2)
             st.session_state["submitted"] = True
-            submitted = True
         
-        if submitted:
+        if st.session_state["submitted"]:
             score = 0
             total_questions = len(questions)
             st.write("### 📊 Quiz Results")
