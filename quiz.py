@@ -75,6 +75,8 @@ def conduct_quiz():
         start_time = time.time()
         end_time = start_time + total_time
         responses = {}
+        timer_expired = False
+        submitted = False
         
         timer_placeholder = st.empty()
         st.markdown("<div class='timer-container'>", unsafe_allow_html=True)
@@ -91,7 +93,7 @@ def conduct_quiz():
                     key=f"q{index}"
                 )
         
-        submit_clicked = st.button("✅ Submit Quiz")
+        submit_clicked = st.button("✅ Submit Quiz", disabled=submitted)
         
         while time.time() < end_time:
             remaining_time = int(end_time - time.time())
@@ -99,43 +101,49 @@ def conduct_quiz():
             timer_placeholder.markdown(f"<div class='timer'>⏳ Time Remaining: {minutes:02}:{seconds:02} mins</div>", unsafe_allow_html=True)
             time.sleep(1)
             if submit_clicked:
+                submitted = True
                 break
         
         if time.time() >= end_time:
+            timer_expired = True
             st.warning("⏳ Time's Up! Auto-submitting your answers.")
             time.sleep(2)
         
-        score = 0
-        total_questions = len(questions)
-        st.write("### 📊 Quiz Results")
-        
-        for index, q in enumerate(questions, start=1):
-            answer = responses[f"q{index}"]
-            correct_option = f"{q['answer']}. {q['options'][ord(q['answer']) - 65]}"
+        if submitted or timer_expired:
+            score = 0
+            total_questions = len(questions)
+            st.write("### 📊 Quiz Results")
             
-            if answer:
-                selected_option = answer[0]
-                if selected_option == q['answer']:
-                    score += 2
-                    st.success(f"✅ {index}. {q['question']} (Correct!)")
+            for index, q in enumerate(questions, start=1):
+                answer = responses[f"q{index}"]
+                correct_option = f"{q['answer']}. {q['options'][ord(q['answer']) - 65]}"
+                
+                if answer:
+                    selected_option = answer[0]
+                    if selected_option == q['answer']:
+                        score += 2
+                        st.success(f"✅ {index}. {q['question']} (Correct!)")
+                    else:
+                        score -= 0.66
+                        st.error(f"❌ {index}. {q['question']} (Wrong!)")
+                        st.write(f"✔️ Correct Answer: {correct_option}")
                 else:
-                    score -= 0.66
-                    st.error(f"❌ {index}. {q['question']} (Wrong!)")
+                    st.warning(f"⚠️ {index}. {q['question']} (Unanswered)")
                     st.write(f"✔️ Correct Answer: {correct_option}")
-            else:
-                st.warning(f"⚠️ {index}. {q['question']} (Unanswered)")
-                st.write(f"✔️ Correct Answer: {correct_option}")
-        
-        st.write(f"### 🎯 {player_name}, your final score is: **{score}/{total_questions * 2}**")
-        
-        leaderboard = load_leaderboard()
-        leaderboard[player_name] = score
-        save_leaderboard(leaderboard)
-        
-        st.write("## 🏆 Leaderboard:")
-        sorted_leaderboard = sorted(leaderboard.items(), key=lambda x: x[1], reverse=True)
-        for rank, (name, scr) in enumerate(sorted_leaderboard, start=1):
-            st.write(f"{rank}. {name} - {scr} points")
+            
+            st.write(f"### 🎯 {player_name}, your final score is: **{score}/{total_questions * 2}**")
+            
+            leaderboard = load_leaderboard()
+            leaderboard[player_name] = score
+            save_leaderboard(leaderboard)
+            
+            st.write("## 🏆 Leaderboard:")
+            sorted_leaderboard = sorted(leaderboard.items(), key=lambda x: x[1], reverse=True)
+            for rank, (name, scr) in enumerate(sorted_leaderboard, start=1):
+                st.write(f"{rank}. {name} - {scr} points")
+            
+            # Disable submit button after submission
+            st.button("✅ Submit Quiz", disabled=True)
 
 if __name__ == "__main__":
     conduct_quiz()
