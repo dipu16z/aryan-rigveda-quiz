@@ -83,5 +83,65 @@
         "question": "Which drink was named after the Vedic god Soma?",
         "options": ["A fermented rice drink", "An intoxicating plant-based drink", "A milk-based offering", "A sacred herbal tea"],
         "answer": "B"
+    },
+    {
+        "question": "What was the primary economic activity of the Aryans?",
+        "options": ["Agriculture", "Pastoralism", "Metalworking", "Trade"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following was a common form of currency in the Rig Vedic period?",
+        "options": ["Gold coins", "Cowrie shells", "Cattle", "Iron ingots"],
+        "answer": "C"
+    },
+    {
+        "question": "What term was used in the Rig Veda to denote a settled community?",
+        "options": ["Jana", "Vis", "Gram", "Rashtra"],
+        "answer": "B"
+    },
+    {
+        "question": "Which class of people was responsible for performing rituals and maintaining religious knowledge?",
+        "options": ["Kshatriyas", "Vaishyas", "Brahmins", "Shudras"],
+        "answer": "C"
+    },
+    {
+        "question": "Which Rig Vedic god was associated with cosmic order and truth?",
+        "options": ["Varuna", "Agni", "Soma", "Indra"],
+        "answer": "A"
+    },
+    {
+        "question": "Who was the king of gods in Rig Vedic mythology?",
+        "options": ["Indra", "Varuna", "Agni", "Soma"],
+        "answer": "A"
+    },
+    {
+        "question": "The concept of ‘Rita’ in Rig Vedic tradition refers to:",
+        "options": ["A warrior code", "Cosmic order", "A sacred drink", "A king’s duty"],
+        "answer": "B"
+    },
+    {
+        "question": "What was the primary function of the Sabha and Samiti in the Rig Vedic period?",
+        "options": ["Religious gatherings", "Administrative and political functions", "War councils", "Trade regulation"],
+        "answer": "B"
+    },
+    {
+        "question": "Which group of people were referred to as ‘Dasyus’ in the Rig Vedic texts?",
+        "options": ["Aryan kings", "Priests", "Non-Aryan inhabitants", "Merchants"],
+        "answer": "C"
+    },
+    {
+        "question": "What is the significance of ‘Yajnas’ in the Rig Vedic period?",
+        "options": ["Warfare rituals", "Animal sacrifices", "Religious offerings to gods", "Legal codes"],
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following Rig Vedic gods is associated with fire and sacrifice?",
+        "options": ["Indra", "Varuna", "Agni", "Soma"],
+        "answer": "C"
+    },
+    {
+        "question": "The Rig Veda is primarily composed in which form?",
+        "options": ["Prose", "Poetry", "Scripture", "Philosophical discourse"],
+        "answer": "B"
     }
 ]
