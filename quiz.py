@@ -23,23 +23,26 @@ def save_leaderboard(leaderboard):
         json.dump(leaderboard, file, indent=4)
 
 def conduct_quiz():
-    """Runs the interactive quiz using Streamlit with improved design and layout."""
-    st.set_page_config(page_title="Aryan & Rig Veda Quiz", layout="wide")
+    """Runs the interactive quiz using Streamlit with improved design and mobile-friendly layout."""
+    st.set_page_config(page_title="Aryan & Rig Veda Quiz", layout="centered")
     st.markdown("""
         <style>
+        body {
+            color: white !important;
+        }
         .question-box {
             padding: 15px;
             border-radius: 10px;
-            background-color: #f9f9f9;
+            background-color: #222;
             margin-bottom: 10px;
-            box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 2px 2px 10px rgba(255,255,255,0.1);
         }
         .correct-answer {
-            color: green;
+            color: lightgreen;
             font-weight: bold;
         }
         .wrong-answer {
-            color: red;
+            color: lightcoral;
             font-weight: bold;
         }
         </style>
