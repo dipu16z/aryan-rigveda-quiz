@@ -93,21 +93,22 @@ def conduct_quiz():
                     key=f"q{index}"
                 )
         
-        submit_clicked = st.button("✅ Submit Quiz", disabled=st.session_state["submitted"])
-        
-        while time.time() < end_time and not st.session_state["submitted"]:
-            remaining_time = int(end_time - time.time())
-            minutes, seconds = divmod(remaining_time, 60)
-            timer_placeholder.markdown(f"<div class='timer'>⏳ Time Remaining: {minutes:02}:{seconds:02} mins</div>", unsafe_allow_html=True)
-            time.sleep(1)
-            if submit_clicked:
+        if not st.session_state["submitted"]:
+            submit_clicked = st.button("✅ Submit Quiz")
+            
+            while time.time() < end_time and not st.session_state["submitted"]:
+                remaining_time = int(end_time - time.time())
+                minutes, seconds = divmod(remaining_time, 60)
+                timer_placeholder.markdown(f"<div class='timer'>⏳ Time Remaining: {minutes:02}:{seconds:02} mins</div>", unsafe_allow_html=True)
+                time.sleep(1)
+                if submit_clicked:
+                    st.session_state["submitted"] = True
+                    break
+            
+            if time.time() >= end_time and not st.session_state["submitted"]:
+                st.warning("⏳ Time's Up! Auto-submitting your answers.")
+                time.sleep(2)
                 st.session_state["submitted"] = True
-                break
-        
-        if time.time() >= end_time and not st.session_state["submitted"]:
-            st.warning("⏳ Time's Up! Auto-submitting your answers.")
-            time.sleep(2)
-            st.session_state["submitted"] = True
         
         if st.session_state["submitted"]:
             score = 0
@@ -142,7 +143,7 @@ def conduct_quiz():
             for rank, (name, scr) in enumerate(sorted_leaderboard, start=1):
                 st.write(f"{rank}. {name} - {scr} points")
             
-            st.button("✅ Submit Quiz", disabled=True)
+            st.session_state["submitted"] = True
 
 if __name__ == "__main__":
     conduct_quiz()
