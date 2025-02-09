@@ -90,8 +90,7 @@ def conduct_quiz():
                     "",
                     [f"{chr(65 + i)}. {option}" for i, option in enumerate(q['options'])],
                     index=None,
-                    key=f"q{index}",
-                    disabled=st.session_state["submitted"]
+                    key=f"q{index}"
                 )
         
         if not st.session_state["submitted"]:
@@ -144,7 +143,9 @@ def conduct_quiz():
             for rank, (name, scr) in enumerate(sorted_leaderboard, start=1):
                 st.write(f"{rank}. {name} - {scr} points")
             
-            st.session_state["submitted"] = True
+            # Disable all radio buttons after submission
+            for index in range(1, len(questions) + 1):
+                st.session_state[f"q{index}"] = None
 
 if __name__ == "__main__":
     conduct_quiz()
