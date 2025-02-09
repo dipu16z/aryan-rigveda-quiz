@@ -25,7 +25,7 @@ def save_leaderboard(leaderboard):
 
 def conduct_quiz():
     """Runs the interactive quiz using Streamlit with a countdown timer and improved UI."""
-    st.set_page_config(page_title="UPSC Quiz", layout="wide")
+    st.set_page_config(page_title="UPSC Quiz 🏛️", layout="wide")
     
     st.markdown("""
         <style>
@@ -43,12 +43,22 @@ def conduct_quiz():
                 background-color: #f9f9f9;
                 margin-bottom: 10px;
                 box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+                color: black;
+            }
+            @media (prefers-color-scheme: dark) {
+                .question-box {
+                    background-color: #333;
+                    color: white;
+                }
+                .timer {
+                    color: #ffcc00;
+                }
             }
         </style>
     """, unsafe_allow_html=True)
     
-    st.title("📜 UPSC Quiz 🏛️")
-    st.write("### Test your knowledge! 🏆")
+    st.title("🏛️ UPSC Quiz")
+    st.write("### Test your knowledge!")
     
     player_name = st.text_input("👤 Enter your name and press Enter:")
     
@@ -78,7 +88,7 @@ def conduct_quiz():
         while time.time() < end_time:
             remaining_time = int(end_time - time.time())
             minutes, seconds = divmod(remaining_time, 60)
-            timer_placeholder.markdown(f"<div class='timer'>⏳ Time Remaining: {minutes}:{seconds} mins</div>", unsafe_allow_html=True)
+            timer_placeholder.markdown(f"<div class='timer'>⏳ Time Remaining: {minutes:02}:{seconds:02} mins</div>", unsafe_allow_html=True)
             time.sleep(1)
             if submit_clicked:
                 break
