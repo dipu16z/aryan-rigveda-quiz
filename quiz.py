@@ -29,13 +29,19 @@ def conduct_quiz():
     
     st.markdown("""
         <style>
+            .timer-container {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                padding: 10px;
+            }
             .timer {
-                position: absolute;
-                top: 10px;
-                right: 10px;
                 font-size: 20px;
                 font-weight: bold;
                 color: red;
+                padding: 10px;
+                border-radius: 5px;
+                background-color: rgba(255, 255, 255, 0.2);
             }
             .question-box {
                 padding: 15px;
@@ -52,6 +58,7 @@ def conduct_quiz():
                 }
                 .timer {
                     color: #ffcc00;
+                    background-color: rgba(0, 0, 0, 0.5);
                 }
             }
         </style>
@@ -70,6 +77,7 @@ def conduct_quiz():
         responses = {}
         
         timer_placeholder = st.empty()
+        st.markdown("<div class='timer-container'>", unsafe_allow_html=True)
         
         st.write("### 📖 Answer the following questions:")
         
