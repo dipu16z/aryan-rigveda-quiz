@@ -1,0 +1,87 @@
+[
+    {
+        "question": "What language family did the Aryans originally speak?",
+        "options": ["Dravidian", "Indo-European", "Sino-Tibetan", "Austroasiatic"],
+        "answer": "B"
+    },
+    {
+        "question": "Where did the Aryans originally live according to historical texts?",
+        "options": ["West of the Alps", "North of the Himalayas", "East of the Alps", "South of the Sahara"],
+        "answer": "C"
+    },
+    {
+        "question": "Which animal played the most significant role in Aryan life?",
+        "options": ["Cow", "Horse", "Dog", "Elephant"],
+        "answer": "B"
+    },
+    {
+        "question": "Which ancient text contains hymns and prayers of the Aryans?",
+        "options": ["Torah", "Rig Veda", "Quran", "Avesta"],
+        "answer": "B"
+    },
+    {
+        "question": "How many mandalas (books) does the Rig Veda consist of?",
+        "options": ["5", "10", "7", "12"],
+        "answer": "B"
+    },
+    {
+        "question": "What is the river 'par excellence' mentioned in the Rig Veda?",
+        "options": ["Yamuna", "Sarasvati", "Indus (Sindhu)", "Brahmaputra"],
+        "answer": "C"
+    },
+    {
+        "question": "Which deity was considered the destroyer of forts and a rain god in the Rig Veda?",
+        "options": ["Varuna", "Indra", "Agni", "Soma"],
+        "answer": "B"
+    },
+    {
+        "question": "Which term in the Rig Veda refers to war?",
+        "options": ["Samudra", "Samgrama", "Gavisti", "Sardha"],
+        "answer": "C"
+    },
+    {
+        "question": "The Rig Vedic society was initially?",
+        "options": ["Strongly hierarchical", "Tribal and largely egalitarian", "Feudal in nature", "Based on democratic principles"],
+        "answer": "B"
+    },
+    {
+        "question": "Who was the most important functionary assisting the king in daily administration?",
+        "options": ["The Senani", "The Purohita", "The Gramani", "The Vishpati"],
+        "answer": "B"
+    },
+    {
+        "question": "What was the main reason for most wars fought by the Aryans?",
+        "options": ["Expansion of territory", "Search for cows", "Revenge on enemies", "Control over trade routes"],
+        "answer": "B"
+    },
+    {
+        "question": "What was considered the most important form of wealth in the Rig Vedic period?",
+        "options": ["Land", "Gold", "Cows", "Horses"],
+        "answer": "C"
+    },
+    {
+        "question": "In the Rig Veda, gifts to priests were primarily given in terms of:",
+        "options": ["Land and jewelry", "Cows and women slaves", "Cattle and gold", "Food and ornaments"],
+        "answer": "B"
+    },
+    {
+        "question": "The Battle of Ten Kings was fought on which river?",
+        "options": ["Ganga", "Yamuna", "Parushni (Ravi)", "Sindhu"],
+        "answer": "C"
+    },
+    {
+        "question": "What was the dominant factor in determining an individual’s position in Rig Vedic society?",
+        "options": ["Gender", "Military skill", "Lineage and occupation", "Ownership of land"],
+        "answer": "C"
+    },
+    {
+        "question": "How were sacrifices performed in the Rig Vedic period?",
+        "options": ["Through elaborate temple rituals", "In open spaces with the participation of the tribe", "Only by the king in palaces", "By merchants as part of trade deals"],
+        "answer": "B"
+    },
+    {
+        "question": "Which drink was named after the Vedic god Soma?",
+        "options": ["A fermented rice drink", "An intoxicating plant-based drink", "A milk-based offering", "A sacred herbal tea"],
+        "answer": "B"
+    }
+]
