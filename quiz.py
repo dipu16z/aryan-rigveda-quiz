@@ -24,7 +24,7 @@ def save_leaderboard(leaderboard):
 
 def conduct_quiz():
     """Runs the interactive quiz using Streamlit with responsive design for both desktop and mobile."""
-    st.set_page_config(page_title="Aryan & Rig Veda Quiz", layout="wide")
+    st.set_page_config(page_title="UPSC Quiz", layout="wide")
     st.markdown("""
         <style>
         @media (prefers-color-scheme: dark) {
@@ -61,8 +61,8 @@ def conduct_quiz():
         </style>
     """, unsafe_allow_html=True)
     
-    st.title("📜 Aryan & Rig Veda Quiz 🏛️")
-    st.write("### Test your knowledge about the Rig Vedic period! 🏆")
+    st.title("📜 Quiz for UPSC 🏛️")
+    st.write("### Test your knowledge! 🏆")
     
     player_name = st.text_input("👤 Enter your name:")
     
