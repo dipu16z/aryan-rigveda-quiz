@@ -294,5 +294,296 @@
         "question": "Which term was used for the leader of a tribe in Rig Vedic times?",
         "options": ["Gramani", "Rajan", "Senani", "Vishpati"],
         "answer": "B"
+    },
+
+    {
+        "question": "Which Rig Vedic deity is known as the Sun God?",
+        "options": ["Varuna", "Surya", "Soma", "Agni"],
+        "answer": "B"
+    },
+    {
+        "question": "What was the role of 'Gopati' in Rig Vedic society?",
+        "options": ["A tribal warrior", "A priest", "A cowherd", "A village leader"],
+        "answer": "C"
+    },
+    {
+        "question": "Which term was used in Rig Vedic texts to denote war?",
+        "options": ["Dharma", "Rita", "Gavisti", "Samgraha"],
+        "answer": "C"
+    },
+    {
+        "question": "What was the main characteristic of Rig Vedic polity?",
+        "options": ["Monarchy", "Democracy", "Oligarchy", "Feudalism"],
+        "answer": "A"
+    },
+    {
+        "question": "Which was the most important source of livelihood during the Rig Vedic period?",
+        "options": ["Fishing", "Hunting", "Pastoralism and Agriculture", "Metalworking"],
+        "answer": "C"
+    },
+    {
+        "question": "What was the role of women in Rig Vedic society?",
+        "options": ["Confined to household work", "Had equal rights in religious rituals", "Forbidden from education", "Restricted to lower caste duties"],
+        "answer": "B"
+    },
+    {
+        "question": "Which Aryan tribe was known to have fought in the Battle of Ten Kings?",
+        "options": ["Bharatas", "Purus", "Yadavas", "Kuruks"],
+        "answer": "A"
+    },
+    {
+        "question": "Which of these was NOT a primary deity in the Rig Vedic period?",
+        "options": ["Indra", "Agni", "Brahma", "Soma"],
+        "answer": "C"
+    },
+    {
+        "question": "What does the word 'Arya' mean in Rig Vedic literature?",
+        "options": ["Priest", "Noble", "Warrior", "Farmer"],
+        "answer": "B"
+    },
+    {
+        "question": "Who was the deity of storms and war in Rig Vedic times?",
+        "options": ["Varuna", "Indra", "Agni", "Soma"],
+        "answer": "B"
+    },
+    {
+        "question": "Which social unit formed the foundation of Rig Vedic society?",
+        "options": ["Jana", "Gram", "Rashtra", "Vis"],
+        "answer": "A"
+    },
+    {
+        "question": "What was the primary use of horses in Rig Vedic society?",
+        "options": ["Agriculture", "Transportation", "Warfare and Chariots", "Religious sacrifices"],
+        "answer": "C"
+    },
+    {
+        "question": "Which metal was used by Rig Vedic people for making weapons?",
+        "options": ["Iron", "Bronze", "Copper", "Silver"],
+        "answer": "B"
+    },
+    {
+        "question": "Which Rig Vedic god was known as the protector of cattle?",
+        "options": ["Varuna", "Agni", "Indra", "Pashupati"],
+        "answer": "D"
+    },
+    {
+        "question": "What was the role of the 'Senani' in Rig Vedic society?",
+        "options": ["Head of the military", "A village priest", "A trader", "An artisan"],
+        "answer": "A"
+    },
+    {
+        "question": "Which Rig Vedic river is considered sacred and mentioned most frequently?",
+        "options": ["Ganga", "Yamuna", "Sarasvati", "Sindhu"],
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following was NOT an occupation in Rig Vedic society?",
+        "options": ["Weaving", "Pottery", "Jewelry making", "Temple priesthood"],
+        "answer": "D"
+    },
+    {
+        "question": "What was the status of trade during the Rig Vedic period?",
+        "options": ["Highly developed", "Minimal and limited to barter", "Based on coin currency", "Dominated by large merchants"],
+        "answer": "B"
+    },
+    {
+        "question": "Which term refers to a guest in the Rig Vedic period?",
+        "options": ["Atithi", "Arya", "Dasya", "Gopati"],
+        "answer": "A"
+    },
+    {
+        "question": "Which Rig Vedic deity is associated with wisdom and law?",
+        "options": ["Indra", "Varuna", "Soma", "Agni"],
+        "answer": "B"
+    },
+    {
+        "question": "Which was the lowest social class in Rig Vedic society?",
+        "options": ["Kshatriyas", "Vaishyas", "Brahmins", "Shudras"],
+        "answer": "D"
+    },
+    {
+        "question": "Which method was used for record-keeping in the Rig Vedic period?",
+        "options": ["Stone inscriptions", "Palm leaves", "Oral tradition", "Copper plates"],
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following was NOT a part of Rig Vedic administration?",
+        "options": ["Sabha", "Samiti", "Mantriparishad", "Gana"],
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following statements is true about Rig Vedic economy?",
+        "options": ["It was primarily trade-based", "It was based on agriculture and pastoralism", "It was a feudal economy", "It was industrially advanced"],
+        "answer": "B"
+    },
+    {
+        "question": "Which one of the following was NOT a major Rig Vedic deity?",
+        "options": ["Indra", "Agni", "Shiva", "Soma"],
+        "answer": "C"
+    },
+    {
+        "question": "Who among the following composed the hymns of the Rig Veda?",
+        "options": ["Warriors", "Kings", "Rishis (Sages)", "Merchants"],
+        "answer": "C"
+    },
+    {
+        "question": "What was the main form of sacrifice in Rig Vedic religion?",
+        "options": ["Animal sacrifice", "Human sacrifice", "Fire rituals (Yajnas)", "Temple offerings"],
+        "answer": "C"
+    },
+    {
+        "question": "Which Rig Vedic hymn is known as the creation hymn?",
+        "options": ["Purusha Sukta", "Nasadiya Sukta", "Agni Sukta", "Indra Sukta"],
+        "answer": "B"
+    },
+    {
+        "question": "Which Rig Vedic god was known as the messenger of gods?",
+        "options": ["Agni", "Indra", "Soma", "Varuna"],
+        "answer": "A"
+    },
+    {
+        "question": "Which Rig Vedic hymn is dedicated to the concept of creation?",
+        "options": ["Nasadiya Sukta", "Purusha Sukta", "Agni Sukta", "Indra Sukta"],
+        "answer": "A"
+    },
+    {
+        "question": "Who among the following was NOT a major deity in the Rig Vedic period?",
+        "options": ["Indra", "Agni", "Soma", "Vishnu"],
+        "answer": "D"
+    },
+    {
+        "question": "What was the function of the 'Vish' in Rig Vedic society?",
+        "options": ["Warriors", "Priests", "Common people", "Rulers"],
+        "answer": "C"
+    },
+    {
+        "question": "Which Rig Vedic god was considered the 'giver of rain'?",
+        "options": ["Varuna", "Indra", "Agni", "Soma"],
+        "answer": "B"
+    },
+    {
+        "question": "What was the primary basis of Aryan wealth in the Rig Vedic period?",
+        "options": ["Gold", "Land", "Cattle", "Jewels"],
+        "answer": "C"
+    },
+    {
+        "question": "Which of the following best describes Rig Vedic social structure?",
+        "options": ["Caste-based", "Tribal and clan-based", "Feudal", "Democratic"],
+        "answer": "B"
+    },
+    {
+        "question": "Which god was the divine drink 'Soma' associated with?",
+        "options": ["Agni", "Soma", "Indra", "Varuna"],
+        "answer": "C"
+    },
+    {
+        "question": "Which Rig Vedic deity was associated with the sky and celestial order?",
+        "options": ["Surya", "Varuna", "Indra", "Soma"],
+        "answer": "B"
+    },
+    {
+        "question": "What was the Rig Vedic term for a king?",
+        "options": ["Gopati", "Rajan", "Samrat", "Chakravartin"],
+        "answer": "B"
+    },
+    {
+        "question": "What was the main focus of Rig Vedic prayers?",
+        "options": ["Salvation", "Material prosperity and protection", "Life after death", "Self-realization"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following metals was NOT commonly used in the Rig Vedic period?",
+        "options": ["Gold", "Silver", "Iron", "Copper"],
+        "answer": "C"
+    },
+    {
+        "question": "Which Rig Vedic river is mentioned as the 'mighty and unfathomable'?",
+        "options": ["Ganga", "Sindhu", "Sarasvati", "Yamuna"],
+        "answer": "B"
+    },
+    {
+        "question": "What was the role of the ‘Dasas’ and ‘Dasyus’ in Rig Vedic texts?",
+        "options": ["Aryan warriors", "Enemy tribes or indigenous people", "Merchants", "Priests"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following animals was NOT commonly mentioned in the Rig Vedic texts?",
+        "options": ["Horse", "Elephant", "Cow", "Tiger"],
+        "answer": "D"
+    },
+    {
+        "question": "Which Rig Vedic hymn is considered one of the earliest references to the division of society into four varnas?",
+        "options": ["Nasadiya Sukta", "Purusha Sukta", "Indra Sukta", "Agni Sukta"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following was NOT a common practice in Rig Vedic society?",
+        "options": ["Polygamy", "Child marriage", "Widow remarriage", "Sati"],
+        "answer": "D"
+    },
+    {
+        "question": "What was the primary occupation of Rig Vedic people?",
+        "options": ["Fishing", "Pastoralism and agriculture", "Hunting", "Metalworking"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following was a primary characteristic of Rig Vedic religion?",
+        "options": ["Image worship", "Ritual sacrifices", "Monotheism", "Temple-based rituals"],
+        "answer": "B"
+    },
+    {
+        "question": "What was the significance of 'Go' in Rig Vedic culture?",
+        "options": ["Cows, symbolizing wealth", "A term for warriors", "A type of chariot", "A title for priests"],
+        "answer": "A"
+    },
+    {
+        "question": "Which Rig Vedic deity was associated with health and healing?",
+        "options": ["Rudra", "Agni", "Indra", "Soma"],
+        "answer": "A"
+    },
+    {
+        "question": "Which term was used in the Rig Veda to refer to the collective people of a tribe?",
+        "options": ["Jana", "Vish", "Samiti", "Gana"],
+        "answer": "A"
+    },
+    {
+        "question": "What was the nature of trade during the Rig Vedic period?",
+        "options": ["Based on barter", "Highly commercialized", "Monetary transactions using coins", "International trade networks"],
+        "answer": "A"
+    },
+    {
+        "question": "What role did rivers play in Rig Vedic society?",
+        "options": ["Centers of religious activities", "Used primarily for transportation", "Feared as places of spirits", "Rarely mentioned in hymns"],
+        "answer": "A"
+    },
+    {
+        "question": "Which Rig Vedic term refers to the act of cattle raiding?",
+        "options": ["Gavisti", "Yajna", "Rita", "Gana"],
+        "answer": "A"
+    },
+    {
+        "question": "Which deity was considered the universal guardian of moral order?",
+        "options": ["Indra", "Varuna", "Agni", "Soma"],
+        "answer": "B"
+    },
+    {
+        "question": "Which economic activity was considered secondary in Rig Vedic society?",
+        "options": ["Agriculture", "Hunting", "Metalwork", "Trade"],
+        "answer": "D"
+    },
+    {
+        "question": "Which was NOT a common theme in Rig Vedic hymns?",
+        "options": ["Praise of gods", "Philosophical speculation", "Detailed accounts of wars", "Sacrificial rituals"],
+        "answer": "C"
+    },
+    {
+        "question": "What was the purpose of ‘Samiti’ in Rig Vedic governance?",
+        "options": ["A war council", "A gathering of elders", "A popular assembly", "A priestly council"],
+        "answer": "C"
+    },
+    {
+        "question": "Which natural phenomenon was most often associated with Rig Vedic hymns?",
+        "options": ["Monsoons", "Lightning and storms", "Sunrise", "Earthquakes"],
+        "answer": "B"
     }
 ]
