@@ -74,7 +74,6 @@ def conduct_quiz():
         total_time = len(questions) * 15  # 15 seconds per question
         start_time = time.time()
         end_time = start_time + total_time
-        responses = {}
         if "submitted" not in st.session_state:
             st.session_state["submitted"] = False
         
@@ -83,6 +82,7 @@ def conduct_quiz():
         
         st.write("### 📖 Answer the following questions:")
         
+        responses = {}
         for index, q in enumerate(questions, start=1):
             with st.container():
                 st.markdown(f"<div class='question-box'><b>{index}. {q['question']}</b></div>", unsafe_allow_html=True)
@@ -90,7 +90,8 @@ def conduct_quiz():
                     "",
                     [f"{chr(65 + i)}. {option}" for i, option in enumerate(q['options'])],
                     index=None,
-                    key=f"q{index}"
+                    key=f"q{index}",
+                    disabled=st.session_state["submitted"]
                 )
         
         if not st.session_state["submitted"]:
@@ -142,10 +143,6 @@ def conduct_quiz():
             sorted_leaderboard = sorted(leaderboard.items(), key=lambda x: x[1], reverse=True)
             for rank, (name, scr) in enumerate(sorted_leaderboard, start=1):
                 st.write(f"{rank}. {name} - {scr} points")
-            
-            # Disable all radio buttons after submission
-            for index in range(1, len(questions) + 1):
-                st.session_state[f"q{index}"] = None
 
 if __name__ == "__main__":
     conduct_quiz()
