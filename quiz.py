@@ -90,7 +90,8 @@ def conduct_quiz():
                     "",
                     [f"{chr(65 + i)}. {option}" for i, option in enumerate(q['options'])],
                     index=None,
-                    key=f"q{index}"
+                    key=f"q{index}",
+                    disabled=st.session_state["submitted"]
                 )
         
         if not st.session_state["submitted"]:
