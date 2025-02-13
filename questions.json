@@ -1,147 +1,152 @@
 [
     {
-        "question": "What was the primary economic objective of British colonial rule in India?",
-        "options": ["Industrialize India", "Make India self-sufficient", "Turn India into a supplier of raw materials", "Develop India’s infrastructure"],
+        "question": "Which economic model did Jawaharlal Nehru adopt for India after independence?",
+        "options": ["Capitalism", "Socialism", "Mixed Economy", "Laissez-faire Economy"],
         "answer": "C"
     },
     {
-        "question": "Which economic sector in India suffered the most under British colonial rule?",
-        "options": ["Agriculture", "Handicraft industry", "Iron and steel industry", "Shipping industry"],
+        "question": "What was the primary focus of the First Five-Year Plan?",
+        "options": ["Industrialization", "Agriculture and irrigation", "Trade liberalization", "Defense expenditure"],
         "answer": "B"
     },
     {
-        "question": "Who among the following made one of the earliest attempts to estimate India’s national income during the colonial period?",
-        "options": ["Dadabhai Naoroji", "R.C. Desai", "William Digby", "Findlay Shirras"],
+        "question": "Who was regarded as the architect of Indian planning?",
+        "options": ["Dadabhai Naoroji", "P.C. Mahalanobis", "B.R. Ambedkar", "R.C. Dutt"],
+        "answer": "B"
+    },
+    {
+        "question": "Which of the following was NOT a goal of India's Five-Year Plans?",
+        "options": ["Economic growth", "Modernization", "Import dependency", "Equity"],
+        "answer": "C"
+    },
+    {
+        "question": "Which indicator is commonly used to measure economic growth?",
+        "options": ["Gross Domestic Product (GDP)", "Consumer Price Index (CPI)", "Fiscal Deficit", "Human Development Index (HDI)"],
         "answer": "A"
     },
     {
-        "question": "Which system of land revenue settlement was introduced in the Bengal Presidency?",
-        "options": ["Mahalwari System", "Ryotwari System", "Zamindari System", "Permanent Settlement"],
+        "question": "What was the primary aim of land reforms in India post-independence?",
+        "options": ["To abolish feudal land ownership", "To increase government control over agriculture", "To nationalize all farmlands", "To replace farmers with industrial laborers"],
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following is a key feature of the Green Revolution?",
+        "options": ["Expansion of forest land", "Use of High Yielding Variety (HYV) seeds", "Introduction of organic farming", "Dependence on foreign food aid"],
+        "answer": "B"
+    },
+    {
+        "question": "Which sector saw the highest share of GDP contribution in India by 1990?",
+        "options": ["Agriculture", "Industry", "Service", "Mining"],
         "answer": "C"
     },
     {
-        "question": "Which colonial policy transformed India into a supplier of raw materials and a consumer of British goods?",
-        "options": ["Economic liberalization", "Planned development", "De-industrialization", "Import substitution"],
+        "question": "What was the main objective of India's import substitution policy?",
+        "options": ["To promote free trade", "To restrict foreign competition", "To reduce domestic production", "To attract foreign investment"],
+        "answer": "B"
+    },
+    {
+        "question": "Which institution was responsible for formulating India's Five-Year Plans?",
+        "options": ["Reserve Bank of India", "Planning Commission", "Finance Ministry", "NITI Aayog"],
+        "answer": "B"
+    },
+    {
+        "question": "The Industrial Policy Resolution of 1956 classified industries into how many categories?",
+        "options": ["Two", "Three", "Four", "Five"],
+        "answer": "B"
+    },
+    {
+        "question": "Which public sector industry played a crucial role in India's economic development post-independence?",
+        "options": ["Railways", "Telecommunications", "Steel", "Textiles"],
         "answer": "C"
     },
     {
-        "question": "What was the approximate percentage of India’s population dependent on agriculture at the time of independence?",
-        "options": ["55%", "65%", "75%", "85%"],
+        "question": "What was the primary criticism of India's public sector enterprises during 1950-1990?",
+        "options": ["Over-efficiency", "Low employment generation", "Bureaucratic inefficiencies and losses", "Excessive privatization"],
+        "answer": "C"
+    },
+    {
+        "question": "Why was the private sector heavily regulated under the Industrial Policy Resolution of 1956?",
+        "options": ["To prevent monopolies", "To encourage foreign investments", "To maintain socialist ideals", "To increase agricultural output"],
+        "answer": "A"
+    },
+    {
+        "question": "Which of the following was NOT a major challenge faced by Indian agriculture before the Green Revolution?",
+        "options": ["Low productivity", "Dependence on monsoons", "Lack of technology", "Excessive government intervention"],
         "answer": "D"
     },
     {
-        "question": "Which of the following was a major factor behind agricultural stagnation under British rule?",
-        "options": ["Lack of fertile land", "Low levels of technology", "High industrial growth", "Government investment in irrigation"],
+        "question": "Which major economic shift was observed in India post-1991?",
+        "options": ["Shift from agriculture to industry", "Economic liberalization", "Nationalization of industries", "Increase in foreign debt"],
         "answer": "B"
     },
     {
-        "question": "Which revenue system allowed zamindars to collect rent from peasants?",
-        "options": ["Ryotwari", "Zamindari", "Mahalwari", "Jagirdari"],
+        "question": "What is the concept of 'marketable surplus' in agriculture?",
+        "options": ["Total agricultural output of a country", "Amount of crops left for trade after self-consumption", "Excess food stored by farmers", "Government procurement of grains"],
         "answer": "B"
     },
     {
-        "question": "What was the primary focus of British infrastructure development in India?",
-        "options": ["Improving public welfare", "Enhancing military mobility and trade", "Promoting agricultural development", "Expanding educational institutions"],
+        "question": "Why was the policy of land ceiling implemented?",
+        "options": ["To increase land ownership for industrialists", "To prevent large landholdings", "To nationalize agriculture", "To increase urbanization"],
         "answer": "B"
     },
     {
-        "question": "Which industry was most affected by British economic policies in India?",
-        "options": ["Textile industry", "Iron and steel industry", "Shipping industry", "Chemical industry"],
-        "answer": "A"
-    },
-    {
-        "question": "The opening of which canal intensified British control over India’s foreign trade?",
-        "options": ["Panama Canal", "Suez Canal", "Grand Canal", "Corinth Canal"],
-        "answer": "B"
-    },
-    {
-        "question": "Which major factor contributed to India's high mortality rates before independence?",
-        "options": ["Frequent wars", "Lack of healthcare and frequent famines", "Low birth rate", "Climate change"],
-        "answer": "B"
-    },
-    {
-        "question": "Which sector accounted for the largest share of the workforce in colonial India?",
-        "options": ["Agriculture", "Manufacturing", "Services", "Banking"],
-        "answer": "A"
-    },
-    {
-        "question": "Which economic historian authored ‘The Economic History of India’?",
-        "options": ["Dadabhai Naoroji", "B.H. Baden-Powell", "R.C. Dutt", "Bimal Jalan"],
+        "question": "Which was a major drawback of India's self-reliance policy?",
+        "options": ["Reduced government expenditure", "Dependence on external borrowings", "Lack of competitive industries", "Decline in agriculture"],
         "answer": "C"
     },
     {
-        "question": "Which city was known for its muslin textile production during colonial India?",
-        "options": ["Madras", "Ahmedabad", "Dhaka", "Surat"],
+        "question": "What was one of the major reasons for the slow industrial growth in India from 1950-1990?",
+        "options": ["Lack of skilled labor", "Lack of financial institutions", "Over-regulation and licensing", "Excessive foreign direct investment"],
         "answer": "C"
     },
     {
-        "question": "Which company played a significant role in the industrialization of India in the early 20th century?",
-        "options": ["Tata Iron and Steel Company (TISCO)", "Reliance Industries", "Hindustan Unilever", "Godrej"],
-        "answer": "A"
-    },
-    {
-        "question": "Which was the first Indian census conducted during British rule?",
-        "options": ["1871", "1881", "1891", "1901"],
+        "question": "Which sector was the focus of the Second Five-Year Plan?",
+        "options": ["Agriculture", "Heavy industries", "Education", "Trade"],
         "answer": "B"
     },
     {
-        "question": "What was the literacy rate in India at the time of independence?",
-        "options": ["Less than 16%", "Less than 25%", "Less than 35%", "Less than 50%"],
-        "answer": "A"
-    },
-    {
-        "question": "What was the major consequence of commercial agriculture under British rule?",
-        "options": ["Increase in food grain production", "Decline of self-sufficient village economies", "Rise of the zamindars", "Growth of Indian-owned industries"],
-        "answer": "B"
-    },
-    {
-        "question": "Which mode of transport was most developed during British rule?",
-        "options": ["Airways", "Railways", "Waterways", "Roadways"],
-        "answer": "B"
-    },
-    {
-        "question": "Which colonial policy contributed to the systematic de-industrialization of India?",
-        "options": ["High import duties on British goods", "Promotion of self-sufficient industries", "Unrestricted free trade", "Subsidies to Indian industries"],
+        "question": "Which of the following was a major failure of India's planned economy?",
+        "options": ["Excessive foreign debt", "Low agricultural production", "Limited employment generation", "Lack of infrastructure development"],
         "answer": "C"
     },
     {
-        "question": "Which factor contributed to India’s large export surplus under British rule?",
-        "options": ["Large-scale industrialization", "Excess production of food grains", "Export of raw materials at low prices", "Extensive trade agreements"],
+        "question": "Which policy was introduced to protect small-scale industries from foreign competition?",
+        "options": ["Trade liberalization", "Import substitution", "Globalization", "Privatization"],
+        "answer": "B"
+    },
+    {
+        "question": "What was the major reason behind government control over core industries?",
+        "options": ["To generate employment", "To prevent private monopolies", "To attract foreign investment", "To reduce government spending"],
+        "answer": "B"
+    },
+    {
+        "question": "Which Five-Year Plan introduced the concept of modernization in India's economy?",
+        "options": ["First Plan", "Second Plan", "Third Plan", "Fourth Plan"],
+        "answer": "B"
+    },
+    {
+        "question": "Which major economic institution was established in 1950 for policy planning?",
+        "options": ["Reserve Bank of India", "NITI Aayog", "Planning Commission", "SEBI"],
         "answer": "C"
     },
     {
-        "question": "Which industry saw significant growth in India during the colonial period?",
-        "options": ["Software industry", "Automobile industry", "Textile industry", "Iron and Steel industry"],
-        "answer": "D"
+        "question": "Which event forced India to reconsider its economic policies in 1991?",
+        "options": ["Green Revolution", "Balance of Payment Crisis", "Liberalization of China", "Global Oil Crisis"],
+        "answer": "B"
     },
     {
-        "question": "What was the main purpose of the British introduction of railways in India?",
-        "options": ["To facilitate public transportation", "To unify the Indian economy", "To serve British economic interests", "To promote tourism"],
+        "question": "Which sector saw the fastest growth in GDP contribution from 1950 to 1990?",
+        "options": ["Agriculture", "Industry", "Services", "Defense"],
         "answer": "C"
     },
     {
-        "question": "Which aspect of British rule had a major impact on India's economic underdevelopment?",
-        "options": ["Heavy taxation", "Free trade policies", "Investment in Indian infrastructure", "Introduction of Western education"],
+        "question": "Which of the following was an unintended consequence of the Green Revolution?",
+        "options": ["Decrease in crop yields", "Increased economic disparity", "Reduction in government intervention", "Decline in industrialization"],
+        "answer": "B"
+    },
+    {
+        "question": "Which economic policy was widely criticized for restricting private sector growth?",
+        "options": ["Industrial Policy Resolution, 1956", "Trade Liberalization, 1991", "New Economic Policy, 1991", "Land Reforms Policy, 1965"],
         "answer": "A"
-    },
-    {
-        "question": "What was the main characteristic of India’s foreign trade during the colonial period?",
-        "options": ["Import of raw materials and export of finished goods", "Balanced trade", "Export of finished goods and import of raw materials", "Export surplus with industrial growth"],
-        "answer": "A"
-    },
-    {
-        "question": "Which book discusses the economic impact of British rule on India?",
-        "options": ["India Divided", "Economic History of India", "Poverty and Famines", "The Land Systems of British India"],
-        "answer": "B"
-    },
-    {
-        "question": "Which group benefited the most from British economic policies in India?",
-        "options": ["Indian peasants", "British industries", "Indian merchants", "Zamindars"],
-        "answer": "B"
-    },
-    {
-        "question": "What was the major drawback of industrial growth in British India?",
-        "options": ["Absence of foreign investment", "Neglect of capital goods industries", "Rapid urbanization", "Excessive government intervention"],
-        "answer": "B"
     }
 ]
