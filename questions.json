@@ -1,147 +1,147 @@
 [
     {
-        "question": "Which text is considered the oldest Vedic Samhita?",
-        "options": ["Yajur Veda", "Rig Veda", "Atharva Veda", "Sama Veda"],
-        "answer": "B"
-    },
-    {
-        "question": "What was the primary purpose of the Sama Veda?",
-        "options": ["Collection of charms and spells", "Ritualistic formulas", "Singing of Rig Vedic hymns", "Compilation of history"],
+        "question": "What was the primary economic objective of British colonial rule in India?",
+        "options": ["Industrialize India", "Make India self-sufficient", "Turn India into a supplier of raw materials", "Develop India’s infrastructure"],
         "answer": "C"
     },
     {
-        "question": "Which Vedic text contains rituals that reflect the social and political milieu of the time?",
-        "options": ["Rig Veda", "Atharva Veda", "Yajur Veda", "Sama Veda"],
-        "answer": "C"
-    },
-    {
-        "question": "Which Vedic text contains spells and charms to ward off evils and diseases?",
-        "options": ["Rig Veda", "Atharva Veda", "Yajur Veda", "Sama Veda"],
+        "question": "Which economic sector in India suffered the most under British colonial rule?",
+        "options": ["Agriculture", "Handicraft industry", "Iron and steel industry", "Shipping industry"],
         "answer": "B"
     },
     {
-        "question": "What were the later Vedic texts that explained the religious and social aspects of rituals?",
-        "options": ["Brahmanas", "Upanishads", "Sutras", "Vedangas"],
+        "question": "Who among the following made one of the earliest attempts to estimate India’s national income during the colonial period?",
+        "options": ["Dadabhai Naoroji", "R.C. Desai", "William Digby", "Findlay Shirras"],
         "answer": "A"
     },
     {
-        "question": "Where were the later Vedic texts mainly compiled?",
-        "options": ["Indus Valley", "Upper Gangetic Basin", "Southern India", "Deccan Plateau"],
-        "answer": "B"
-    },
-    {
-        "question": "What kind of pottery was used by the people of the Later Vedic period?",
-        "options": ["Redware", "Black-and-red ware", "Painted Grey Ware", "Terracotta Ware"],
+        "question": "Which system of land revenue settlement was introduced in the Bengal Presidency?",
+        "options": ["Mahalwari System", "Ryotwari System", "Zamindari System", "Permanent Settlement"],
         "answer": "C"
     },
     {
-        "question": "What metal became prominent in the Later Vedic period around 1000 B.C.?",
-        "options": ["Copper", "Bronze", "Iron", "Silver"],
+        "question": "Which colonial policy transformed India into a supplier of raw materials and a consumer of British goods?",
+        "options": ["Economic liberalization", "Planned development", "De-industrialization", "Import substitution"],
         "answer": "C"
     },
     {
-        "question": "Which Vedic tribe played a major role in occupying Delhi and Kurukshetra?",
-        "options": ["Bharatas", "Purus", "Kurus", "Panchalas"],
-        "answer": "C"
-    },
-    {
-        "question": "What significant battle is associated with the Kurus?",
-        "options": ["Battle of Hydaspes", "Battle of the Ten Kings", "Mahabharata", "Battle of Kalinga"],
-        "answer": "C"
-    },
-    {
-        "question": "Which kingdom was famous for its philosopher kings and Brahmana theologians?",
-        "options": ["Kosala", "Magadha", "Panchala", "Matsya"],
-        "answer": "C"
-    },
-    {
-        "question": "Which Vedic region saw the use of iron implements buried with dead bodies?",
-        "options": ["Baluchistan", "Eastern Uttar Pradesh", "Gandhara", "Punjab"],
-        "answer": "C"
-    },
-    {
-        "question": "Which agricultural technique was mentioned in the Satapatha Brahmana?",
-        "options": ["Irrigation", "Ploughing", "Crop rotation", "Domestication of animals"],
-        "answer": "B"
-    },
-    {
-        "question": "What was the staple food of the Later Vedic people in Punjab and western Uttar Pradesh?",
-        "options": ["Barley", "Rice", "Millets", "Wheat"],
+        "question": "What was the approximate percentage of India’s population dependent on agriculture at the time of independence?",
+        "options": ["55%", "65%", "75%", "85%"],
         "answer": "D"
     },
     {
-        "question": "Which new cereal was introduced in the Later Vedic period?",
-        "options": ["Wheat", "Rice", "Barley", "Maize"],
+        "question": "Which of the following was a major factor behind agricultural stagnation under British rule?",
+        "options": ["Lack of fertile land", "Low levels of technology", "High industrial growth", "Government investment in irrigation"],
         "answer": "B"
     },
     {
-        "question": "Which metal was called 'Syama' or 'Krishna Ayas' in the Later Vedic period?",
-        "options": ["Gold", "Iron", "Copper", "Silver"],
+        "question": "Which revenue system allowed zamindars to collect rent from peasants?",
+        "options": ["Ryotwari", "Zamindari", "Mahalwari", "Jagirdari"],
         "answer": "B"
     },
     {
-        "question": "Which art and craft became significant during the Later Vedic period?",
-        "options": ["Woodworking", "Copper metallurgy", "Weaving", "Pottery"],
+        "question": "What was the primary focus of British infrastructure development in India?",
+        "options": ["Improving public welfare", "Enhancing military mobility and trade", "Promoting agricultural development", "Expanding educational institutions"],
         "answer": "B"
     },
     {
-        "question": "Which of the following was the most distinctive pottery of the Later Vedic period?",
-        "options": ["Black-slipped ware", "Red pottery", "Painted Grey Ware", "Polished ceramics"],
+        "question": "Which industry was most affected by British economic policies in India?",
+        "options": ["Textile industry", "Iron and steel industry", "Shipping industry", "Chemical industry"],
+        "answer": "A"
+    },
+    {
+        "question": "The opening of which canal intensified British control over India’s foreign trade?",
+        "options": ["Panama Canal", "Suez Canal", "Grand Canal", "Corinth Canal"],
+        "answer": "B"
+    },
+    {
+        "question": "Which major factor contributed to India's high mortality rates before independence?",
+        "options": ["Frequent wars", "Lack of healthcare and frequent famines", "Low birth rate", "Climate change"],
+        "answer": "B"
+    },
+    {
+        "question": "Which sector accounted for the largest share of the workforce in colonial India?",
+        "options": ["Agriculture", "Manufacturing", "Services", "Banking"],
+        "answer": "A"
+    },
+    {
+        "question": "Which economic historian authored ‘The Economic History of India’?",
+        "options": ["Dadabhai Naoroji", "B.H. Baden-Powell", "R.C. Dutt", "Bimal Jalan"],
         "answer": "C"
     },
     {
-        "question": "Which social class started engaging in trade towards the end of the Later Vedic period?",
-        "options": ["Brahmanas", "Kshatriyas", "Vaishyas", "Sudras"],
+        "question": "Which city was known for its muslin textile production during colonial India?",
+        "options": ["Madras", "Ahmedabad", "Dhaka", "Surat"],
         "answer": "C"
     },
     {
-        "question": "What was the primary means of livelihood for the Later Vedic people?",
-        "options": ["Trade", "Agriculture", "Craftsmanship", "Hunting"],
+        "question": "Which company played a significant role in the industrialization of India in the early 20th century?",
+        "options": ["Tata Iron and Steel Company (TISCO)", "Reliance Industries", "Hindustan Unilever", "Godrej"],
+        "answer": "A"
+    },
+    {
+        "question": "Which was the first Indian census conducted during British rule?",
+        "options": ["1871", "1881", "1891", "1901"],
         "answer": "B"
     },
     {
-        "question": "Which Later Vedic concept referred to an early form of urbanization?",
-        "options": ["Nagara", "Gram", "Janapada", "Maha-Janapada"],
+        "question": "What was the literacy rate in India at the time of independence?",
+        "options": ["Less than 16%", "Less than 25%", "Less than 35%", "Less than 50%"],
         "answer": "A"
     },
     {
-        "question": "Which two assemblies continued to exist in the Later Vedic period?",
-        "options": ["Sabha and Samiti", "Vidatha and Samiti", "Sabha and Parishad", "Panchayat and Sabha"],
-        "answer": "A"
-    },
-    {
-        "question": "What was the main purpose of the Rajasuya sacrifice?",
-        "options": ["To attain supreme power", "To bless agriculture", "To promote trade", "To honor ancestors"],
-        "answer": "A"
-    },
-    {
-        "question": "Which Later Vedic sacrifice granted absolute control over a territory?",
-        "options": ["Rajasuya", "Vajapeya", "Asvamedha", "Purushamedha"],
-        "answer": "C"
-    },
-    {
-        "question": "Which term first appeared in the Later Vedic period to indicate territory?",
-        "options": ["Janapada", "Rashtra", "Mahajanapada", "Samrajya"],
+        "question": "What was the major consequence of commercial agriculture under British rule?",
+        "options": ["Increase in food grain production", "Decline of self-sufficient village economies", "Rise of the zamindars", "Growth of Indian-owned industries"],
         "answer": "B"
     },
     {
-        "question": "Which ruling class gradually became the dominant power in Later Vedic society?",
-        "options": ["Kshatriyas", "Brahmanas", "Vaishyas", "Sudras"],
-        "answer": "A"
+        "question": "Which mode of transport was most developed during British rule?",
+        "options": ["Airways", "Railways", "Waterways", "Roadways"],
+        "answer": "B"
     },
     {
-        "question": "Which social class was responsible for rituals and priestly duties in Later Vedic society?",
-        "options": ["Brahmanas", "Kshatriyas", "Vaishyas", "Sudras"],
-        "answer": "A"
-    },
-    {
-        "question": "Which Vedic god was regarded as the creator and occupied the highest position in Later Vedic society?",
-        "options": ["Indra", "Agni", "Prajapati", "Varuna"],
+        "question": "Which colonial policy contributed to the systematic de-industrialization of India?",
+        "options": ["High import duties on British goods", "Promotion of self-sufficient industries", "Unrestricted free trade", "Subsidies to Indian industries"],
         "answer": "C"
     },
     {
-        "question": "Which two Rig Vedic gods lost their importance in the Later Vedic period?",
-        "options": ["Indra and Agni", "Varuna and Surya", "Yama and Rudra", "Soma and Vishnu"],
+        "question": "Which factor contributed to India’s large export surplus under British rule?",
+        "options": ["Large-scale industrialization", "Excess production of food grains", "Export of raw materials at low prices", "Extensive trade agreements"],
+        "answer": "C"
+    },
+    {
+        "question": "Which industry saw significant growth in India during the colonial period?",
+        "options": ["Software industry", "Automobile industry", "Textile industry", "Iron and Steel industry"],
+        "answer": "D"
+    },
+    {
+        "question": "What was the main purpose of the British introduction of railways in India?",
+        "options": ["To facilitate public transportation", "To unify the Indian economy", "To serve British economic interests", "To promote tourism"],
+        "answer": "C"
+    },
+    {
+        "question": "Which aspect of British rule had a major impact on India's economic underdevelopment?",
+        "options": ["Heavy taxation", "Free trade policies", "Investment in Indian infrastructure", "Introduction of Western education"],
         "answer": "A"
+    },
+    {
+        "question": "What was the main characteristic of India’s foreign trade during the colonial period?",
+        "options": ["Import of raw materials and export of finished goods", "Balanced trade", "Export of finished goods and import of raw materials", "Export surplus with industrial growth"],
+        "answer": "A"
+    },
+    {
+        "question": "Which book discusses the economic impact of British rule on India?",
+        "options": ["India Divided", "Economic History of India", "Poverty and Famines", "The Land Systems of British India"],
+        "answer": "B"
+    },
+    {
+        "question": "Which group benefited the most from British economic policies in India?",
+        "options": ["Indian peasants", "British industries", "Indian merchants", "Zamindars"],
+        "answer": "B"
+    },
+    {
+        "question": "What was the major drawback of industrial growth in British India?",
+        "options": ["Absence of foreign investment", "Neglect of capital goods industries", "Rapid urbanization", "Excessive government intervention"],
+        "answer": "B"
     }
 ]
